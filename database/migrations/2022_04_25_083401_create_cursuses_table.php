@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('cursuses', function (Blueprint $table) {
             $table->id();
+            $table->string('school_name');
+            $table->string('degree');
+            $table->string('field_of_study')->nullable();
+            $table->text('field_of_study_description')->nullable();
+            $table->timestamp('start_at')->nullable();
+            $table->timestamp('end_at')->nullable();
             $table->timestamps();
         });
     }

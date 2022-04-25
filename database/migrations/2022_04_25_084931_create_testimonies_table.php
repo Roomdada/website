@@ -1,6 +1,5 @@
 <?php
 
-use App\Models\ProjectType;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -14,10 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('project_types', function (Blueprint $table) {
+        Schema::create('testimonies', function (Blueprint $table) {
             $table->id();
-            $table->enum('type', ProjectType::getTypes())->default(ProjectType::ALREADY_ARCHIVED);
-            $table->text('description')->nullable();
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('job_title')->nullable();
+            $table->text('testimony');
             $table->timestamps();
         });
     }
@@ -29,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('project_types');
+        Schema::dropIfExists('testimonies');
     }
 };
