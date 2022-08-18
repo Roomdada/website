@@ -26,10 +26,8 @@
                     <img src='{{ asset('images/logo.jpg') }}'>
                 </a>
                 <div>
-                    <a href='#' class='ml-4 text-white font-bold hover:text-green-200'>Accueil</a>
-                    <a href='#cursus' class='ml-4 text-white font-bold hover:text-green-200'>Cursus</a>
+                    <a href='#' class='ml-4 text-indigo-300 font-bold hover:text-green-200'>Accueil</a>
                     <a href='#todo' class='ml-4 text-white font-bold hover:text-green-200'>Réalisations</a>
-                    <a href='#testimony' class='ml-4 text-white font-bold hover:text-green-200'>Témoignages</a>
                     <a href='#' class='ml-4 text-white font-bold hover:text-green-200'>Services proposés</a>
                     <a href='#' class='ml-4 text-white font-bold hover:text-green-200'>Contact</a>
                 </div>
@@ -45,11 +43,15 @@
                         Je suis un jeune dynamique, passionné par le developpement d'application web & mobile ainsi que
                         de nouvelles technologies.
                     </p>
-                    <div class='mt-10'>
+                    <div class='mt-10 flex'>
                         <a href='#'
                             class='bg-transparent hover:bg-green-900 text-white font-bold hover:text-white py-4 px-6 border border-green-900 hover:border-transparent rounded'>
                             Telecharger mon cv
                         </a>
+                        <a href='#'
+                        class='bg-transparent hover:bg-green-500 text-white font-bold hover:text-white py-4 px-6 border border-green-900 hover:border-transparent rounded mx-2'>
+                        Mon github
+                    </a>
                     </div>
                 </div>
                 <div>
@@ -64,17 +66,17 @@
                 <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl mb-6">Mon cursus
                 </h2>
             </div>
-            <div id='todo' class="flow-root mx-6">
+            <div id='todo' class="flex justify-center mx-64">
                 <ul role="list" class="-mb-8">
                     <li class='items-center'>
                         <div class="relative pb-8">
-                            <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
+                            <span class="absolute top-5 left-8  -ml-px h-full w-1 bg-green-200"
                                 aria-hidden="true"></span>
                             <div class="relative flex items-start space-x-3">
-                                <div class="relative">
-                                    <img class="h-10 w-10 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white"
-                                        src="{{ asset('images/cursus.png') }}" alt="">
-                                </div>
+                              <div class="relative border-2 border-blue-500 rounded-full px-2 py-2">
+                                <img class="h-12 w-11 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white"
+                                    src="{{ asset('images/cursus.png') }}" alt="">
+                              </div>
                                 <div class="min-w-0 flex-1">
                                     <div>
                                         <div class="text-sm">
@@ -94,13 +96,13 @@
                     </li>
                     <li class='items-center'>
                         <div class="relative pb-8">
-                            <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
+                            <span class="absolute top-5 left-8  -ml-px h-full w-1 bg-green-200"
                                 aria-hidden="true"></span>
                             <div class="relative flex items-start space-x-3">
-                                <div class="relative">
-                                    <img class="h-10 w-10 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white"
-                                        src="{{ asset('images/cursus.png') }}" alt="">
-                                </div>
+                              <div class="relative border-2 border-green-500 rounded-full px-2 py-2">
+                                <img class="h-12 w-11 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white"
+                                    src="{{ asset('images/cursus.png') }}" alt="">
+                               </div>
                                 <div class="min-w-0 flex-1">
                                     <div>
                                         <div class="text-sm">
@@ -120,11 +122,10 @@
                     </li>
                     <li class='items-center'>
                         <div class="relative pb-8">
-                            <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                                aria-hidden="true"></span>
+                            
                             <div class="relative flex items-start space-x-3">
-                                <div class="relative">
-                                    <img class="h-10 w-10 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white"
+                                <div class="relative border-2 border-orange-500 rounded-full px-2 py-2">
+                                    <img class="h-12 w-11 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white"
                                         src="{{ asset('images/cursus.png') }}" alt="">
                                 </div>
                                 <div class="min-w-0 flex-1">
