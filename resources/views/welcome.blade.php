@@ -8,11 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- for Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <!-- for Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">     <!-- for Google Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Lato', sans-serif;
         }
 
     </style>
@@ -32,14 +32,14 @@
                     <a href='#' class='ml-4 text-white font-bold hover:text-green-200'>Contact</a>
                 </div>
             </nav>
-            <div class='mt-28 flex items-center mx-4'>
+            <div class='mt-28 flex items-center mx-10'>
                 <div>
-                    <img src='{{ asset('images/mobile.svg') }}'>
+                   <img src='{{ asset('images/mobile.svg') }}'>
                 </div>
                 <div>
-                    <h1 class='text-xl text-white font-bold'>Hello, je suis Da Sié Roger.</h1>
-                    <h2 class='text-2xl text-green-900 font-bold mb-2'>Développeur & Formateur</h2>
-                    <p class='text-sm md:text-base text-white'>
+                    <h1 class='text-2xl text-white font-bold'>✨ Hello, je suis Da Sié Roger.</h1>
+                    <h2 class='text-5xl text-green-900 font-bold mb-2'>Développeur & Formateur</h2>
+                    <p class='text-sm md:text-base text-white text-justify'>
                         Je suis un jeune dynamique, passionné par le developpement d'application web & mobile ainsi que
                         de nouvelles technologies.
                     </p>
@@ -77,15 +77,12 @@
                                 <div class="min-w-0 flex-1">
                                     <div>
                                         <div class="text-sm">
-                                            <a href="#" class="font-bold text-gray-900">LICENCE en Méthode Informatique
-                                                Appliquée a la Gestion des Entreprises</a>
+                                            <a href="#" class="font-bold text-gray-900">LICENSE PROFESSIONNELLE</a>
                                         </div>
-                                        <p class="mt-0.5 text-sm text-gray-500">2018-2022</p>
+                                        <p class="mt-0.5 text-sm text-gray-500">2018-2021</p>
                                     </div>
                                     <div class="mt-1 text-sm text-gray-700">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum
-                                            tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis
-                                            sed purus nam.</p>
+                                        <p>Memoire en Methode Informatique Appliquée a la Gestion des entreprises a l'Université Polytechnique de Bingerville. </p>
                                     </div>
                                 </div>
                             </div>
@@ -103,15 +100,12 @@
                                 <div class="min-w-0 flex-1">
                                     <div>
                                         <div class="text-sm">
-                                            <a href="#" class="font-bold text-gray-900">LICENCE en Méthode Informatique
-                                                Appliquée a la Gestion des Entreprises</a>
+                                            <a href="#" class="font-bold text-gray-900">BACCALAUREAT</a>
                                         </div>
-                                        <p class="mt-0.5 text-sm text-gray-500">2018-2022</p>
+                                        <p class="mt-0.5 text-sm text-gray-500">2015-2018</p>
                                     </div>
                                     <div class="mt-1 text-sm text-gray-700">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum
-                                            tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis
-                                            sed purus nam.</p>
+                                        <p>J'ai obtenue en 2018 au Lycée Classque d'Abidjan le BAC D avec une mention assez bien.</p>
                                     </div>
                                 </div>
                             </div>
@@ -128,15 +122,12 @@
                                 <div class="min-w-0 flex-1">
                                     <div>
                                         <div class="text-sm">
-                                            <a href="#" class="font-bold text-gray-900">LICENCE en Méthode Informatique
-                                                Appliquée a la Gestion des Entreprises</a>
+                                            <a href="#" class="font-bold text-gray-900">BREVET D'ETUDE DE PREMIER CYCLE</a>
                                         </div>
-                                        <p class="mt-0.5 text-sm text-gray-500">2018-2022</p>
+                                        <p class="mt-0.5 text-sm text-gray-500">2012-2015</p>
                                     </div>
                                     <div class="mt-1 text-sm text-gray-700">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum
-                                            tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis
-                                            sed purus nam.</p>
+                                        <p>J'obtiens le BEPC en 2015 au Lycée Moderne de Koumassi</p>
                                     </div>
                                 </div>
                             </div>
@@ -157,17 +148,16 @@
                         <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Mes Réalisations
                         </h2>
                     </div>
-                    <div class="mt-12 max-w-sm mx-auto grid gap-4 lg:grid-cols-4 lg:max-w-none mx-24">
-                        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                    <div class="mt-12 max-w-sm mx-auto grid gap-3 lg:grid-cols-3 lg:max-w-none mx-24">
+                        <div class="flex flex-col border border-gray-200 shadow-md rounded-t-xl overflow-hidden transform transition duration-600 hover:scale-y-125">
                             <div class="flex-shrink-0">
                                 <img class="h-48 w-full object-cover"
-                                    src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                                    alt="">
+                                    src="{{ asset('images/project.png') }}" alt="">
                             </div>
                             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                                 <div class="flex-1">
                                     <p class="text-sm font-medium text-indigo-600">
-                                        <a href="#" class="hover:underline"> Article </a>
+                                        <a href="#" class="hover:underline">UAI DEVOPS SITE</a>
                                     </p>
                                     <a href="#" class="block mt-2">
                                         <p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>
@@ -179,7 +169,7 @@
 
                             </div>
                         </div>
-                        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div class="flex flex-col border border-gray-200 shadow-md rounded-t-xl overflow-hidden transform transition duration-600 hover:scale-y-125">
                             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                                 <div class="flex-1">
                                     <p class="text-sm font-medium text-indigo-600">
@@ -201,10 +191,10 @@
                             </div>
 
                         </div>
-                        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div class="flex flex-col border border-gray-200 shadow-md rounded-t-xl overflow-hidden transform transition duration-600 hover:scale-y-125">
                             <div class="flex-shrink-0">
                                 <img class="h-48 w-full object-cover"
-                                    src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                                    src="{{ asset('images/project-2.png') }}"
                                     alt="">
                             </div>
                             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -221,28 +211,6 @@
                                 </div>
 
                             </div>
-                        </div>
-                        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                                <div class="flex-1">
-                                    <p class="text-sm font-medium text-indigo-600">
-                                        <a href="#" class="hover:underline"> Article </a>
-                                    </p>
-                                    <a href="#" class="block mt-2">
-                                        <p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>
-                                        <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga
-                                            culpa, similique sequi cum eos quis dolorum.</p>
-                                    </a>
-                                </div>
-
-                            </div>
-                            <div class="flex-shrink-0">
-                                <img class="h-48 w-full object-cover"
-                                    src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                                    alt="">
-                            </div>
-
                         </div>
                     </div>
                 </div>
